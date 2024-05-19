@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+.container {
+    font-family: "Space Grotesk", sans-serif;
+    display: flex;
+    padding: 50px 0px 0px 50px;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.name{
+    margin: 15px 0px 0px 0px;
+    font-weight: 700;
+    font-size: 44px;
+}
+.text{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    font-family: "Lexend", sans-serif;
+    margin-left: 245px;
+}
+.imageParty{
+    display: ruby;
+}
+.we {
+    position: absolute;
+    top: 33%; 
+    z-index: 1; 
+  }
+ 
+  @keyframes increaseWidth {
+    0% { clip-path: inset(0 20% 0 0); }
+    50% { clip-path: inset(0 0 0 0); }
+    100% { clip-path: inset(0 20% 0 0); }
+  }
+  @keyframes textLeftAnimation {
+    0% { left: calc(19% + 276px + 0%); }
+    50% { left: calc(19% + 276px + 5%); }
+    100% { left: calc(19% + 276px + 0%); }
+  }
+  .imageFirstLine {
+    position: absolute;
+    top: 34%;
+    left: 22%;
+    height: 55px;
+    width: 276px; 
+    animation: increaseWidth 3s linear infinite;
+  }
+  .imageFirstLineTwo{
+    position: absolute;
+    top: 33%;
+    left: calc(22% + 276px + 5%);
+    animation: textLeftAnimation 3s linear infinite;
+  }
+  .textSecondLine{
+    position: absolute;
+    top: 44%;
+  }
+  .imagePartySecond{
+    position: absolute;
+    top: 10%;
+    left: calc(22% + 276px + 5%);
+    animation: increaseWidth 3s linear infinite;
+  }
+  .imageThirdLine{
+    position: absolute;
+    top: 55%;
+    left: 16%;
+    height: 55px;
+    width: 310px; 
+    animation: textWidthImage 3s linear infinite ;
+  }
+  @keyframes textWidthImage {
+    0% { clip-path: inset(0 0 0 0); }
+    50% { clip-path: inset(0 20% 0 0); }
+    100% { clip-path: inset(0 0 0 0); }
+}
+  @keyframes textAnimation {
+    0% { left: calc(20% + 276px + 0%); }
+    50% { left: calc(20% + 276px + -5%); }
+    100% { left: calc(20% + 276px + 0%); }
+  }
+  .thirdLine{
+    position: absolute;
+    top:54%;
+    left:35%;
+    animation: textAnimation 3s linear infinite;
+  }
+  .ImageThirdMic{
+    position: absolute;
+    top:10%;
+    height: 55px;
+    width: 140px; 
+    transform: translateX(-40%);
+    animation: textAnimation 3s linear infinite ;
+  }
+  .music{
+    position: absolute;
+    left: 170%;
+  }
+  .imagePeople{
+    height: 55px;
+    width: 276px; 
+  }
+  .imageCrowd{
+    height: 55px;
+    width: 276px; 
+  }
+  .artist{
+    position: absolute;
+    top: 65%;
+  }
+  @keyframes textLeftAnimationThird {
+    0% { left: calc(27% + 276px + 0%); }
+    50% { left: calc(27% + 276px + 5%); }
+    100% { left: calc(27% + 276px + 0%); }
+  }
+  
+  .imagePeople{
+    position: absolute;
+    top: 66%;
+    left: 29%;
+    animation: increaseWidth 3s linear infinite;
+  }
+  .culture{
+    position: absolute;
+    top: 65%;
+    left: 48%;
+    animation: textLeftAnimationThird 3s linear infinite;    
+  }
+  @keyframes textWidthImageCrowd {
+    0% { clip-path: inset(0 10% 0 0); left: calc(45% + 240px + 0%); }
+    50% { clip-path: inset(0 40% 0 0); left: calc(45% + 240px + 5%); }
+    100% { clip-path: inset(0 10% 0 0);  left: calc(45% + 240px + 0%); }
+}
+  .imageCrowd{
+    position: absolute;
+    top: 66%;
+    left: 64%;
+    animation: textWidthImageCrowd 3s linear infinite ;
+  }
+  .collection{
+    position: absolute;
+    top: 76%;
+    left: 49%;
+    animation: LastAnimationCollection 3s linear infinite ;
+  }
+  .pumpkin{
+    position: absolute;
+    top: 77%;
+    left: 34%;
+    height: 55px;
+    width: 200px; 
+    animation: LastAnimationPumpkin 3s linear infinite ;
+  }
+  .art{
+    position: absolute;
+    top: 76%;
+    left: 26%;
+    animation: LastAnimation 3s linear infinite ;
+
+  }
+  .pinkFlower{
+    position: absolute;
+    height: 55px;
+    width: 142px; 
+    animation: textWidthImage 3s linear infinite ;
+    top: 77%
+  }
+  @keyframes LastAnimation {
+    0% { left: calc(13% + 210px + 0%); }
+    50% { left: calc(13% + 210px - 3%); }
+    100% { left: calc(13% + 210px + 0%); }
+  }
+  @keyframes LastAnimationCollection {
+    0% { left: calc(30% + 270px + 0%); }
+    50% { left: calc(30% + 270px - 3%); }
+    100% { left: calc(30% + 270px + 0%); }
+  }
+  @keyframes LastAnimationPumpkin {
+    0% { left: calc(20% + 210px + 0%); }
+    50% { left: calc(20% + 210px - 3%); }
+    100% { left: calc(20% + 210px + 0%); }
+  }

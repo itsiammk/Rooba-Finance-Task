@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+.buttonRight:hover, .buttonLeft:hover {
+  color: rgb(140, 138, 138) !important;
+}
+.introjs-tooltiptext {
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+}
